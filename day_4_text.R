@@ -16,7 +16,7 @@ library(wordcloud2)
 library(qgraph)
 
 #파일 불러오기(엑셀 데이터)
-news<-read.xlsx("news.xlsx", sheetIndex=1, encoding='UTF-8')
+news<-read.csv("news.csv")
 news
 
 #변수명'키워드' 추출하기
